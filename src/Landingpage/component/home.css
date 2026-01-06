@@ -1,0 +1,60 @@
+.slick-dots li button{
+    display: none;
+}
+
+
+.wel{
+    /* background: url('Images/ex3.jpg'); */
+    background-color: rgb(200, 224, 232);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   } 
+
+
+   .wels{
+    /* background: url('Images/ex3.jpg'); */
+    background-color: rgb(128, 128, 218);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   } 
+
+
+   /* ===scroll===== */
+
+   .scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 1px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .scroll {
+    background-color: #0056b3; 
+    transform: scale(1.1); 
+  }
+  
+  @media(max-width: 426px){
+    .col-lg-4.col-md-4.p-2.d-flex.justify-content-center {
+      width: 200px;
+  }
+  .col-lg-3.col-md-3.p-2.d-flex.justify-content-center {
+    width: 200px;
+  }
+  
+  
+   }

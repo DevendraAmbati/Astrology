@@ -1,0 +1,190 @@
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-family: auto;
+    font-size: larger;
+  }
+
+  a#basic-nav-dropdown{
+    text-decoration: none;
+    color: white;
+    font-family: auto;
+    font-size: larger;
+
+  }
+  
+  
+  .nav-link .a :hover {
+    text-decoration: none;
+    color: #b42f74;
+    font-size: x-large;
+    background-color: #ffffff;
+  }
+  
+  
+  
+  .dropdown-item {
+    text-decoration: none;
+    color:blueviolet;
+    font-family: auto;
+    font-size: larger;
+  }
+
+
+  
+  .dropdown-item a {
+    text-decoration: none;
+    color: #282c34;
+    font-weight: bold;
+  }
+  
+  link {
+    text-decoration: none;
+  }
+  
+  .Number,
+  .Email,
+  .Addres {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+  }
+  
+  a#collapsible-nav-dropdown {
+    color: white;
+    font-family: auto;
+    font-size: larger;
+  }
+  
+  .dropdown-item a {
+    text-decoration: none;
+    background: transparent;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    border-radius: 0px;
+  }
+  
+  .nav-item .dropdown a {
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+  }
+  /* button.navbar-toggler.collapsed {
+    background-color: white;
+  } */
+  
+  
+  /* a#collapsible-nav-dropdown :hover{
+  font-size: 30px;
+  } */
+  
+  
+  /*------ Testimonial---- */
+  
+  /* .hero-image {
+    height: 50vh;
+  }
+  
+   */
+  
+  
+  /* Footer  */
+  
+  /* .bg {
+    background-color: #cdd1dc;
+  }
+   */
+  
+  /* Te */
+  
+  /* .slick-slider.slick-initialized {
+    /* box-shadow: 0px 2px 15px 7px #b4afaf; */
+    /* border-radius: 5px;
+    padding: 30px;
+  } */
+  
+  /* .row.p-5 {
+    background-color: #8b8d92;
+    border-radius: 20px;
+    box-shadow: 0px -1px 15px 6px
+  } */
+  
+  
+  /* MLM  */
+  
+  /* .MLMSoftware {
+    
+    opacity: #000;
+  }
+  
+  p.mt-5.text-justify {
+    text-align: justify;
+  }
+  
+  .Titeless {
+    background-color: #24262766;
+    padding: inherit;
+  } */
+  
+  
+  /* Bineary MLM */
+  
+  /* .about .about-text p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  p.card-text {
+    text-align: justify;
+  }
+   */
+  
+   
+
+   /* .imagenavbar,.Carousel-img1{
+    background: url('Images/example.jpg');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   } */
+   .Carousel-img1{
+    position: relative;
+    top: 0px;
+    background-color:ghostwhite;
+   }
+   .imagenavbar{
+    z-index: 2;
+    background-color: rgb(209, 233, 216);
+   }
+
+   /* .Carousel{
+    background: url('Images/example.jpg');
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   } */
+
+   @media(max-width: 991px){
+    .sidebar{
+      background-color: rgba(4, 114, 92, 0.527);
+      backdrop-filter: blur(10px);
+    }
+   }
+  
+   /* @media (max-width: 430px){
+    .navtitale{
+      display: inline-block;
+      max-width: 100%; 
+      text-align: center; 
+      font-size: small;
+    }
+    
+   } */

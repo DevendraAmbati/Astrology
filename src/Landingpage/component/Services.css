@@ -1,0 +1,8 @@
+.hovers{
+    transition: transform .7s ease-in-out;
+}
+.hovers:hover{
+    transform: rotate(360deg);
+    border-color: #edf000;
+    border-style: 15px;
+}
